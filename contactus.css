@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;800&display=swap");
+#contact-us-back {
+  background-image: url("./images/letter.jpg");
+  background-size: cover;
+  background-position: 25% 25%;
+  height: 100vh;
+}
+
+.main-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 2em;
+    gap: 2em;
+}
+
+.col-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2em;
+}
+
+.page-header {
+    font-size: 5em;
+    font-variant: small-caps;
+    color: black;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    padding: 40vh 0;
+    text-align: center;
+}
+
+.contact-information {
+     min-width: 5em; 
+     max-width: 35em; 
+     margin-top: 2em; 
+    margin-bottom: 2em; 
+    margin-left: auto; 
+     margin-right: auto; 
+}
+
+.card {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    background-color: #0e2e29;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    /* border: solid 0.2em; */
+    /* border-color: #f1b24a; */
+    box-shadow: 0 0 3em 0.1em black;
+    display: flex;
+    flex-flow: row nowrap;
+
+    overflow: auto;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+    width: 100%;
+}
+
+form .form-col {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+    justify-content: space-evenly;
+}
+
+form .input-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.3em;
+}
+
+input,textarea {
+    background-color: #0a1f1c;
+    color: white;
+    border: none;
+    padding: 0.8em;
+    border-radius: 0.5em;
+}
+
+/* input { */
+/*     width: 15em; */
+/* } */
+
+/* input { */
+/*     width: 100%; */
+/* } */
+
+.card h2 {
+    writing-mode: sideways-lr;
+    text-align: center;
+    /* padding: 0; */
+    margin: 0 1rem 0 0;
+    /* margin-bottom: 2rem; */
+}
+
+.contact-information .subsection-end {
+    border-bottom: solid 0.2em;
+    border-color: #f1b24a;
+}
+
+.contact-information table td,th {
+    padding: 1em;
+}
+.contact-information table {
+    border-collapse: collapse;
+}
+/* .table-wrapper { */
+/*     display: grid; */
+/*     grid-template-areas: */
+/*         "ph" */
+/*         "phc" */
+/*         "em" */
+/*         "emc" */
+/*         "sm" */
+/*         "smc"; */
+/* } */
+
+@media (min-width: 1024px) {
+    .table-wrapper {
+        display: grid;
+        /* grid-template-areas: */
+        /*     "ph phc" */
+        /*     "em emc" */
+        /*     "sm smc"; */
+        grid-template-columns: 1fr 2fr;
+        grid-row-gap: 1.5em;
+        justify-items: center;
+        align-items: center;
+        align-content: flex-start;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5em;
+
+    }
+}
+@media (max-width: 1024px) {
+    .form-grid {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1.5em;
+    }
+}
+
+.table-wrapper .label {
+    font-weight: bold;
+}
+#submit{
+    margin-left: 200px;
+    width: 80px;
+}
+#submit:hover{
+    border: 1px solid white;
+}
+#center{
+    margin: 3em 13em 3em;
+}
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:#0a1f1c;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.indent-sex{
+    text-indent: 50px;
+}
+.indent1{
+    text-indent: 150px;
+}
+.indent2{
+    text-indent: 250px;
+}
+.volunteer-back{
+        background-image: url(images/Valunteer.jpg);
+        background-size: cover;
+        height: 600px;
+}        
+#submit-val{
+    margin-left: 350px;
+    width: 80px;
+}
+#submit-val:hover{
+    border: 1px solid white;
+
+}

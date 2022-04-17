@@ -1,0 +1,98 @@
+.Donate-back{
+    background-image: url(images/Donate.jpg);
+    background-size: cover;
+    margin: 0px;
+    height: 800px;
+}
+#back-h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 150px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 5em;
+    font-variant: small-caps;
+}
+#back-p{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    font-variant: small-caps;
+    padding-left: 250px;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 4em;
+    font-family:'Times New Roman', Times, serif
+}
+.first-form{
+    background-color: #0a1f1c;
+}
+input[type=text]{
+    background-color: #0a1f1c;
+    height: 30px;
+    width: 350px;
+    padding: 15px;
+    color:white;
+    border-radius: 10px;
+}
+
+.box{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    background-color: #0e2e29;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 0 3em 0.1em black;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: auto;
+    width: 50%;
+    margin-left: 350px;
+}
+input,textarea {
+    background-color: #0a1f1c;
+    color: white;
+    border: none;
+    padding: 0.8em;
+    border-radius: 0.5em;
+}
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:#0a1f1c;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.submit{
+    margin-left: 315px;
+    width: 100px;
+    margin-top: 20px;
+}
+.submit:hover{
+    border: 1px solid white;
+}

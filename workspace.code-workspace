@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\BAU 2\\discrete st\\discrete lab\\lab 1"
+		},
+		{
+			"path": "..\\BAU 2\\discrete st\\discrete lab\\Lab2"
+		},
+		{
+			"path": "..\\BAU 2\\discrete st\\discrete lab\\lab3"
+		},
+		{
+			"path": "..\\BAU 2\\discrete st\\discrete lab\\lab4"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lab4"
+	}
+}
